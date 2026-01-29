@@ -1,0 +1,35 @@
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+.contact-heading {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--teal);
+    font-family: var(--font-mono);
+    font-size: var(--fz-md);
+    font-weight: 400;
+}
+
+.contact-heading::before {
+    display: none;
+}
+
+.contact-heading::after {
+    display: none;
+}
+
+.contact-section .title {
+    font-size: clamp(40px, 5vw, 60px);
+    margin: 0 0 30px;
+    color: var(--lightest-slate);
+}
+
+.contact-section p {
+    color: var(--slate);
+    font-size: var(--fz-lg);
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
