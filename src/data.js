@@ -1,5 +1,5 @@
 export const personalInfo = {
-    name: "Your Name",
+    name: "ONYEKA EZEMEJOR",
     role: "Software Engineer",
     bio: "I build accessible, pixel-perfect, secure, and performant web applications.",
     email: "your.email@example.com",
@@ -39,6 +39,6 @@ export const projects = [
 
 export const skills = [
     { category: "Frontend", items: ["HTML", "CSS", "JavaScript", "React", "Redux"] },
-    { category: "Backend", items: ["Node.js", "Express", "Python", "SQL"] },
+    { category: "Backend", items: ["Node.js", "Express", "Python", "SQL", "PHP"] },
     { category: "Tools", items: ["Git", "Docker", "VS Code", "Figma"] }
 ];
